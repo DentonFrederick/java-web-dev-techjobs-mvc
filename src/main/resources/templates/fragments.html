@@ -27,7 +27,7 @@
         </div>
     </div>
 
-    <table th:fragment = "sample-table" class = "job-listing">
+    <table th:fragment = "sample-table" class = "job-postings">
         <tr th:each = "job : ${jobs}">
             <td>
                 <p>Id: <span th:text = "${job.id}"></span></p>
