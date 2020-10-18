@@ -43,7 +43,7 @@ public class ListController {
         model.addAttribute("employers", JobData.getAllEmployers());
         model.addAttribute("locations", JobData.getAllLocations());
         model.addAttribute("positions", JobData.getAllPositionTypes());
-        model.addAttribute("skills", JobData.getAllCoreCompetency());
+        model.addAttribute("coreCompetency", JobData.getAllCoreCompetency());
 
         return "list";
     }
